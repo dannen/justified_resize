@@ -92,8 +92,10 @@ sub resize {
 		# only copy original for resizing if it doesn't already exist
 		if ( ! -e "$resizeddir/$target" ) {
 			
+			# copy original into resized directory for justified_gallery_builder
 			# make a copy of original. if scale > original dimensions, original image will be used rather than upscaling
 			mkdir $resizeddir,0777;
+			system ("cp $picture $resizeddir/$picture");		
 			system ("cp $picture $resizeddir/$target");		
 		
 
