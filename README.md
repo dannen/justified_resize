@@ -17,4 +17,9 @@ Justified_resize cannot currently detect or rescale animated png/apng files.
 
 Requirements: <a href="http://www.perl.org">perl</a> and <a href="http://www.imagemagick.org/">imagemagick's</a> convert and mogrify commands.
 
+For use with:
+
+https://github.com/dannen/justified_gallery_builder
+http://miromannino.com/projects/justified-gallery/
+
 Tested: Linux Mint 12.04
