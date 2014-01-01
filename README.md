@@ -15,6 +15,6 @@ Justified_resize can detect animated gifs and using imagemagick convert to scale
 Justified_resize cannot currently detect or rescale animated png/apng files.
 
 
-Requirements: <a href="http://www.imagemagick.org/">imagemagick's</a> convert and mogrify commands.
+Requirements: <a href="http://www.perl.org">perl</a> and <a href="http://www.imagemagick.org/">imagemagick's</a> convert and mogrify commands.
 
 Tested: Linux Mint 12.04
