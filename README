@@ -1,0 +1,7 @@
+This perl script complements the justified gallery code from here: https://github.com/miromannino/Justified-Gallery
+
+Currently it processes only .jpg suffixed files.
+
+Requirements: imagemagick's mogrify command
+
+Tested: Linux Mint 12.04
