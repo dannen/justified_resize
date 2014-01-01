@@ -74,9 +74,11 @@ sub resize {
 			#print "key: $key\n scale: $scale\n";
 
                 	if ( $height > $width ) {
-                        	print "wider than taller $height x $width $target\n";
+				# optional parsing for wider than tall
+                        	# print "wider than taller $height x $width $target\n";
                         	system ("mogrify -scale x$scale  $target");
                 	} else {
+				# no special processing yet for taller than wide
                         	system ("mogrify -scale x$scale  $target");
                 	}
 		}
